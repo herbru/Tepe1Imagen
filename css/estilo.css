@@ -1,20 +1,58 @@
-.contenido_principal{
-	float: left;
-	border-style: solid;
-	border-color: rgb(255, 0, 0);
-	padding: 20px;
-	margin: 10px;
+
+.contenido_principal {
+    display: inline;
 }
+
+.footer {
+    clear: left;
+    border-style: solid;
+    border-color: green;
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+}
+
+.cuadros_de_caro{
+  display: inline-block;
+  float: left;
+  width: 65%;
+}
+
+.cuadros_de_herni{
+  display: inline-block;
+  width: 65%
+}
+
+.cuadro1{
+  border-style: solid;
+  float: left;
+  border-color: yellow;
+  display: inline-block;
+}
+
+.cuadro2{
+  float: left;
+  display: inline-block;
+  border-style: solid;
+  border-color: orange;
+}
+
+.cuadros_de_ambos{
+  border-style: solid;
+  border-color: violet;
+  float: left;
+  width: 70%;
+}
+
 .cuadro_lateral{
-	float: right;
-	border-style: solid;
-	padding: 20px;
-	margin: 10px;
-	height: 50%
-}
-.footer{
-	clear: 	left;
-	border-style: solid;
-	border-color: rgb(0,255,0);
-	margin: 10px;
+  border-style: solid;
+  border-color: black;
+  float: left;
+  width:29%;
 }
