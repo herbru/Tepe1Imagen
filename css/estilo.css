@@ -1,6 +1,6 @@
 
-.contenido_principal {
-    display: inline;
+.row .column {
+    box-sizing: border-box;
 }
 
 .footer {
@@ -19,28 +19,67 @@
 }
 
 .cuadros_de_caro{
-  display: inline-block;
   float: left;
   width: 65%;
 }
 
 .cuadros_de_herni{
-  display: inline-block;
-  width: 65%
+  float: left;
+  width: 80%;
 }
 
 .cuadro1{
   border-style: solid;
   float: left;
   border-color: yellow;
-  display: inline-block;
+  width: 30%;
+  height: 150px;
+  margin: 3px;
 }
 
 .cuadro2{
   float: left;
-  display: inline-block;
   border-style: solid;
   border-color: orange;
+  width: 30%;
+  height: 150px;
+  margin: 3px;
+}
+
+.cuadro3{
+  margin: 3px;
+  width: 30%;
+  float: left;
+  border-style: solid;
+  border-color: purple;
+  height: 150px;
+}
+
+.cuadro4{
+  margin: 3px;
+  width: 27%;
+  float: left;
+  border-style: solid;
+  border-color: beige;
+  height: 150px;
+}
+
+.cuadro5{
+  margin: 3px;
+  width: 27%;
+  float: left;
+  border-style: solid;
+  border-color: lightblue;
+  height: 150px;
+}
+
+.cuadro6{
+  margin: 3px;
+  width: 27%;
+  float: left;
+  border-style: solid;
+  border-color: lightgreen;
+  height: 150px;
 }
 
 .cuadros_de_ambos{
@@ -55,4 +94,5 @@
   border-color: black;
   float: left;
   width:29%;
+  height: 309px;
 }
