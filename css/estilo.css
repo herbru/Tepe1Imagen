@@ -1,98 +1,68 @@
+body {
+	background-color: #004D40;
 
-.row .column {
-    box-sizing: border-box;
 }
 
-.footer {
-    clear: left;
-    border-style: solid;
-    border-color: green;
-    width: 100%;
-    text-align: center;
+.Principal {
+	margin: 0 auto;
+	padding: 8px;
+	width: 95%;
+	background-color: #00695C;
+	overflow: auto;
 }
 
-.header {
-    width: 100%;
-    text-align: center;
-    border-style: solid;
-    border-color: red;
+.encabezado {
+	margin: 0 auto;
+	background-color: #009688;
+	width: 90%;
+	text-align: center;
+	border: 5px solid;
 }
 
-.cuadros_de_caro{
-  float: left;
-  width: 65%;
+.contenido_principal {
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 90%;
 }
 
-.cuadros_de_herni{
-  float: left;
-  width: 80%;
+.contenedor {
+	width: 65%;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 15px;
 }
 
-.cuadro1{
-  border-style: solid;
-  float: left;
-  border-color: yellow;
+.cuadro_lateral {
+	width: 25%;
+	float: right;
+	background-color: #26A69A;
+	padding: 3px;
+	margin-right: 10px;
+	margin-top: 15px;
+	height: 300px;
+}
+
+.alumno {
+	text-align: center;
+	border: 5px solid;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+	display: inline-block;
+}
+
+.cuadro {
+	display: inline-block;
+	border: 5px solid;
   width: 30%;
-  height: 150px;
-  margin: 3px;
+  text-align: center;
 }
 
-.cuadro2{
-  float: left;
-  border-style: solid;
-  border-color: orange;
-  width: 30%;
-  height: 150px;
-  margin: 3px;
-}
-
-.cuadro3{
-  margin: 3px;
-  width: 30%;
-  float: left;
-  border-style: solid;
-  border-color: purple;
-  height: 150px;
-}
-
-.cuadro4{
-  margin: 3px;
-  width: 27%;
-  float: left;
-  border-style: solid;
-  border-color: beige;
-  height: 150px;
-}
-
-.cuadro5{
-  margin: 3px;
-  width: 27%;
-  float: left;
-  border-style: solid;
-  border-color: lightblue;
-  height: 150px;
-}
-
-.cuadro6{
-  margin: 3px;
-  width: 27%;
-  float: left;
-  border-style: solid;
-  border-color: lightgreen;
-  height: 150px;
-}
-
-.cuadros_de_ambos{
-  border-style: solid;
-  border-color: violet;
-  float: left;
-  width: 70%;
-}
-
-.cuadro_lateral{
-  border-style: solid;
-  border-color: black;
-  float: left;
-  width:29%;
-  height: 309px;
+footer {
+	margin: 0 auto;
+	padding: 8px;
+	width: 95%;
+	background-color: #00897B;
+	overflow: auto;
+	text-align: center;
 }
